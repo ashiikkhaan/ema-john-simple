@@ -12,10 +12,16 @@
 
 .cart-container {
     background: #FF99004D;
+    padding: 20px;
 }
 
 @media screen and (max-width: 1100px) {
+    .shop-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
     .products-container {
-        grid-template-columns: repeat(2 1fr);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
